@@ -1,0 +1,8 @@
+{
+    "default": {
+      "paths": ["features/**/*.feature"],
+      "require": ["tests/steps/**/*.ts"],
+      "format": ["progress-bar", "html:cucumber-report.html"],
+      "publishQuiet": true
+    }
+  }

@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "experimentalDecorators": true, // Enable decorators
+    "emitDecoratorMetadata": true,  // Required for cucumber-tsflow
+    "lib": ["es2020", "dom"],      // Include DOM for Playwright
+    "types": ["node", "@playwright/test", "cucumber"] // Ensure types are included
+  },
+  "include": ["tests/**/*", "features/**/*"],
+  "exclude": ["node_modules"]
+}
