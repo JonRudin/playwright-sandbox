@@ -4,18 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx cucumber-js",
-    "test:playwright": "npx playwright test"
+    "test": "npx playwright test",
+    "test:report": "npx playwright show-report"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
-    "@cucumber/cucumber": "^11.3.0",
     "@playwright/test": "^1.53.1",
     "@types/node-fetch": "^2.6.12",
-    "cucumber-tsflow": "^4.5.2",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
   },
